@@ -1,0 +1,15 @@
+.nav-link {
+    margin-right: 10px; /* Adjust the space between links */
+    color: red; /* Default color */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #555; /* Color on hover */
+  }
+  
+  .active-link {
+    color: #f00; /* Active link color */
+    border-bottom: 2px solid #f00; /* Underline for active link */
+  }
+  
