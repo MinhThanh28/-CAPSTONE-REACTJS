@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center mt-4">
-          © 2022 Cybersoft All Rights Reserved | Design Theme by Trương Tấn Khải
+          © 2022 Cybersoft All Rights Reserved | Design Theme by Lê Minh Thành
         </div>
       </div>
     </footer>

@@ -14,6 +14,9 @@ import Detail from "./Pages/Detail/Detail";
 import Profile from "./Pages/Profile/Profile";
 import Login from "./Pages/Login/Login";
 import Register from "./Pages/Register/Register";
+import Cart from "./Pages/Cart/Cart";
+import Search from "./Pages/Search/Search";
+import "./index.css";
 export const history = createBrowserHistory();
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,8 +29,10 @@ root.render(
             <Route path=":id" element={<Detail />} />
           </Route>
           <Route path="profile" element={<Profile />}></Route>
-          <Route path="login" element={<Login /> }></Route>
+          <Route path="login" element={<Login />}></Route>
           <Route path="register" element={<Register />} />
+          <Route path="cart" element={<Cart />} />
+          <Route path="search" element={<Search />} />
         </Route>
       </Routes>
     </Provider>
